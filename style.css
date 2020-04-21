@@ -1,0 +1,49 @@
+*{
+font-family:tahoma;
+}
+body{
+margin:0;
+padding:0;
+}
+.page{
+background-color:#031320;
+display:flex;
+flex-wrap:wrap;
+}
+h2{
+color:#fff;
+color:#fff;
+}
+.col{
+flex: 1;
+height:100vh;
+position:relative;
+}
+.countdown-col{
+background:url('mask1.jpg');
+background-size:cover;
+background-attachment:fixed;
+background-repeat:no-repeat;
+}
+.time{
+color:#fff;
+text-transform:uppercase;
+display:flex;
+width:90%;
+justify-content:center;
+}
+.middle{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+}
+.time span{
+padding: 0 14px;
+font-size:10px;
+}
+.time span div{
+font-size:40px
+}
+
